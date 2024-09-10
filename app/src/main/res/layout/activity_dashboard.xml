@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Welcome TextView -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Group Info Button with Green Background -->
+    <Button
+        android:id="@+id/group_info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Group Info"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green" />
+
+    <!-- Song List Button with Green Background -->
+    <Button
+        android:id="@+id/song_list_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Song List"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green" />
+
+    <!-- Logout Button with Green Background -->
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/green" />
+</LinearLayout>

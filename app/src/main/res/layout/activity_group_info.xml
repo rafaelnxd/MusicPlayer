@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Members"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Member Card 1: Rafael de Novaes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img_1"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/rounded_image"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/member_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rafael de Novaes"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/member_rm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RM: 553934"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Member Card 2: Fabiola Falcão -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/rounded_image"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/member_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fabiola Falcão"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/member_rm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RM: 553432"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
