@@ -2,8 +2,8 @@
 
 Integrantes:
 
-Rafael de Novaes - RM553934
-Fabíola Falcão - RM552715
+Rafael de Novaes - RM553934  
+Fabíola Falcão - RM552715  
 
 Este projeto é um aplicativo Android desenvolvido em **Kotlin** com funcionalidades de:
 - **Login Simples**
