@@ -5,12 +5,6 @@ Integrantes:
 Rafael de Novaes - RM553934  
 Fabíola Falcão - RM552715  
 
-Este projeto é um aplicativo Android desenvolvido em **Kotlin** com funcionalidades de:
-- **Login Simples**
-- **Dashboard com navegação**
-- **Lista de músicas**
-- **Reprodutor de música** com controle de play/pause e barra de progresso interativa.
-
 ## Funcionalidades Principais
 
 - **Login Simples**: Permite que o usuário faça login com credenciais locais.
