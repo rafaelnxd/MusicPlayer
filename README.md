@@ -26,7 +26,7 @@ O projeto possui a seguinte estrutura de atividades e layouts:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/rafaelnxd/MusicPlayer
    ```
 
 2. **Abra o projeto no Android Studio**.
